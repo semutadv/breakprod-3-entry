@@ -8,6 +8,7 @@
 import { mkdirSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// The excuse, verbatim from the incident channel at 17:04.
 const OUTAGE_LINE =
   "FATAL: I deployed at 16:59 on a Friday because all 4,000 tests passed locally. 'Locally' is doing a lot of heavy lifting in that sentence. So is 'passed.'";
 
